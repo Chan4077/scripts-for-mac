@@ -1,9 +1,7 @@
 #!/bin/bash
 echo "This will uninstall Minecraft from your computer. (Only applies to the NEW Minecraft launcher) Are you sure you want to continue? Type Y to continue, or N to stop."
 read confirmContinue
-if [[ "$confirmContinue" == "Y" ]]; then
-echo "Stuff"
-else
+if [[ "$confirmContinue" != "Y" ]]; then
 echo "You either inputted an invalid value or stopped the script. Exiting"
 exit 1
 fi
