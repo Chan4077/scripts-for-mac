@@ -12,4 +12,4 @@ Current scripts available:
 | Uninstall Minecraft | [Script][script1] |
 
 <!--Links-->
-[script1]: '/Minecraft.command'
+[script1]: /Minecraft.command
