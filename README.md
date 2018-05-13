@@ -12,8 +12,8 @@ Some scripts for Mac.
 
 ## Making your own
 ### Mac
-1. Create a new file named whatever you want in whatever text editor you have _(e.g. TextEdit, Visual Studio Code, etc.) and add a `.command` file extension to it
-2. Add the following line (required) and put it in the first line:
+1. Create a new file named whatever you want in whatever text editor you have (e.g. TextEdit, Visual Studio Code, etc.) and add a `.sh` file extension to it
+2. Add the following line (required, known as a [Shebang][shebang-wikipedia]) and put it in the first line:
     ```bash
     #!/bin/bash
     ```
@@ -31,3 +31,5 @@ Some scripts for Mac.
     ```
 ### Windows
 <!--TODO: Add instructions-->
+
+[shebang-wikipedia]: https://en.wikipedia.org/wiki/Shebang_(Unix)
