@@ -1,0 +1,20 @@
+# macOS-specific files
+.DS_Store
+Thumbs.db
+
+# Windows-specific files
+
+# NodeJS
+/node_modules
+
+# IDEs
+# VSCode
+/.vscode
+
+# Intellij IDEA
+/.idea
+.project
+.classpath
+.settings
+
+# Other
